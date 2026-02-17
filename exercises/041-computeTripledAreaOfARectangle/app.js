@@ -1,6 +1,7 @@
 function computeTripledAreaOfARectangle(length, width) {
   // your code here
-  
+  let tripled = (length * width) * 3
+  return tripled
 }
 
 let output = computeTripledAreaOfARectangle(2, 4);
