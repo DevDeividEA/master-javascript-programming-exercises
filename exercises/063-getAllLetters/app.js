@@ -1,6 +1,10 @@
 function getAllLetters(str) {
     // your code here
-    
+    if (str.length === 0) return 0
+
+    let result = [...str]
+
+    return result
 }
 
 let output = getAllLetters('Radagast');
